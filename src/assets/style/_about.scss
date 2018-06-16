@@ -1,0 +1,21 @@
+.ba-section-about {
+	height: 799px;
+}
+.img-about {
+	padding: 124px 120px;
+}
+.text-about {
+	padding: 204px 99px;
+	color: $primary-color;
+}
+svg{
+	display: inline-block;
+	vertical-align: middle;
+	@include ba-transition('fill, stroke');
+}
+a,
+[type="submit"],
+[type="button"],
+button{
+	@include ba-transition;
+}

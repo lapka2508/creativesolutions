@@ -1,0 +1,29 @@
+.ba-main-menu a {
+	color: $white;
+	font-size: 24px;
+	font-weight: 600;
+}
+.top-bar {
+	padding-top: 56px;
+	margin: 0;
+}
+.ba-header {
+	background: url(../img/DeathtoStock_Wired7.jpeg);
+	height: 1070px;
+
+	&__text {
+		text-align: center;
+		padding-top: 407px;
+		font-size: 71.97px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		line-height: 60.035px;/* Приближение из-за подстановки шрифтов */
+		color: $light-gray;
+	}
+	&__italic {
+		color: $medium-gray;
+		font-size: 29.99px;
+		font-style: italic;
+		text-align: center;
+		padding-top: 47px;
+	}
+}

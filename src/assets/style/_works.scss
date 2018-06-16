@@ -1,0 +1,9 @@
+.ba-works {
+	background: url(../img/works-bg.jpeg);
+	text-align: center;
+	height: 1000px;
+	padding-top: 49px;
+	&__img {
+		padding-top: 70px;
+	}
+}

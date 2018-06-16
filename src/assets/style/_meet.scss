@@ -1,0 +1,34 @@
+.ba-section-meet {
+	padding-top: 56px;
+	padding-bottom: 98px;
+	background: $secondary-color;
+	height: 818px;
+}
+.ba-section__title {
+	color: $primary-color;
+	text-align: center;
+}
+.ba-meet {
+
+	&__img {
+		border-radius: 50%;
+	}
+	&__text {
+		background: $white;
+		padding: 162px ;
+	}
+	&__title {
+		color: $violet;
+	}
+	&__profesion {
+		color: $primary-color;
+	}
+	&__socials {
+		background: $violet;
+		height: 69px;
+		text-align: center;
+	}
+}
+
+
+
